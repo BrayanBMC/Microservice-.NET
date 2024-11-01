@@ -109,3 +109,7 @@ C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\obj\Debug\net8.
 C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\obj\Debug\net8.0\TiendaServicios.Api.Autor.pdb
 C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\obj\Debug\net8.0\TiendaServicios.Api.Autor.genruntimeconfig.cache
 C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\obj\Debug\net8.0\ref\TiendaServicios.Api.Autor.dll
+C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\Autofac.dll
+C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\MediatR.dll
+C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\MediatR.Extensions.Autofac.DependencyInjection.dll
