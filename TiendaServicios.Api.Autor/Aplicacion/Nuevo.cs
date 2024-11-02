@@ -1,5 +1,5 @@
-﻿using MediatR;
-using System.Data;
+﻿using FluentValidation;
+using MediatR;
 using TiendaServicios.Api.Autor.Modelo;
 using TiendaServicios.Api.Autor.Persistencia;
 
@@ -12,6 +12,15 @@ namespace TiendaServicios.Api.Autor.Aplicacion
             public string Nombre { get; set; }
             public string Apellido { get; set; }
             public DateTime? FechaNacimiento { get; set; }
+        }
+
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(x => x.Nombre).NotEmpty();
+                RuleFor(x => x.Apellido).NotEmpty();
+            }
         }
 
         public class Manejador : IRequestHandler<Ejecuta, Unit> // Cambia a IRequestHandler<Ejecuta, Unit>
@@ -28,7 +37,7 @@ namespace TiendaServicios.Api.Autor.Aplicacion
                 var autorlibro = new AutorLibro
                 {
                     Nombre = request.Nombre,
-                    FechaDeNacimiento = request.FechaNacimiento,
+                    FechaDeNacimiento = request.FechaNacimiento?.ToUniversalTime(),
                     Apellido = request.Apellido,
                     AutorLibroGuid = Guid.NewGuid().ToString()
                 };
