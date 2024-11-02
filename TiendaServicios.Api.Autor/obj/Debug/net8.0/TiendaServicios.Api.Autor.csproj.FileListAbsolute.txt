@@ -117,3 +117,4 @@ C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.
 C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\obj\Debug\net8.0\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\bacos\Desktop\Microservicios1\TiendaServicios.Api.Autor\bin\Debug\net8.0\AutoMapper.dll

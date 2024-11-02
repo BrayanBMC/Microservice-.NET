@@ -18,6 +18,8 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Nuevo
 
 builder.Services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
 
+builder.Services.AddAutoMapper(typeof(Consulta.Manejador));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

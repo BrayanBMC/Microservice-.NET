@@ -51,7 +51,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[TiendaServicios.Api.Autor.Modelo.AutorLibro, TiendaServicios.Api.Autor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[TiendaServicios.Api.Autor.Aplicacion.AutorDto, TiendaServicios.Api.Autor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -77,7 +77,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TiendaServicios.Api.Autor.Modelo.AutorLibro",
+        "Type": "TiendaServicios.Api.Autor.Aplicacion.AutorDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
